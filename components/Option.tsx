@@ -4,9 +4,6 @@ import { MaterialIcons } from '@expo/vector-icons'
 
 interface OptionProps {
   children: React.ReactNode
-  name: string
-  value: string
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
 }
 
 interface IconProps {
@@ -14,14 +11,9 @@ interface IconProps {
   color: string
 }
 
-export default function Option({
-  children,
-  name,
-  value,
-  onChange,
-}: OptionProps) {
+export default function Option({ children }: OptionProps) {
   return (
-    <View className="w-full flex-row items-center gap-2 p-4 border-b border-gray-300">
+    <View className="w-full flex-row items-center gap-2 px-4 py-2 border-b border-gray-200">
       {children}
     </View>
   )
