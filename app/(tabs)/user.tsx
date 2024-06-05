@@ -1,9 +1,9 @@
 import { Text, View } from '@/components/Themed'
 
-export default function TabTwoScreen() {
+export default function UserScreen() {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text className="text-2xl font-bold">Tab Two</Text>
+      <Text className="text-2xl font-bold">User</Text>
       <View
         className="my-8 h-0.5 w-4/5"
         lightColor="#eee"
