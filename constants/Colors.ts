@@ -9,6 +9,7 @@ export default {
     tint: tintColorLight,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorLight,
+    inputLabel: '#ccc',
   },
   dark: {
     text: '#fff',
@@ -17,6 +18,7 @@ export default {
     tint: tintColorDark,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
+    inputLabel: '#fcfcfc',
   },
 }
 

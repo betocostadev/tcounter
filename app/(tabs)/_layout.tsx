@@ -49,6 +49,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="login"
+        options={{
+          title: 'Login',
+          tabBarIcon: ({ color }) => (
+            <TabBarIcon name="arrow-right" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="user"
         options={{
           title: 'User',
