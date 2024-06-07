@@ -2,11 +2,13 @@ import Colors from '@/constants/Colors'
 import { Input } from '@/components/Input'
 import { View } from '@/components/Themed'
 import { useColorScheme } from '@/components/useColorScheme.web'
-import { Pressable, Text } from 'react-native'
+import { Pressable, ScrollView, Text } from 'react-native'
 
 export default function LoginScreen() {
   const colorScheme = useColorScheme()
 
+  // Adding a ScrollView is creating a bug. Seems like NativeWind is not
+  // working, the styles are broken.
   return (
     <View className="flex-1">
       <Text className="text-2xl font-bold self-center my-5 dark:text-white">
